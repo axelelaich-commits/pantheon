@@ -93,7 +93,7 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 <link rel="manifest" href="index.manifest.json">
-
+<script>if('serviceWorker' in navigator){var maj=function(w){if(w){try{w.postMessage('update')}catch(e){}}};navigator.serviceWorker.ready.then(function(r){if(r.waiting){maj(r.waiting)}r.addEventListener('updatefound',function(){var n=r.installing;if(n){n.addEventListener('statechange',function(){if(n.state==='installed'&&navigator.serviceWorker.controller){maj(r.waiting||n)}})}});r.update();setInterval(function(){r.update()},60000);}).catch(function(){});}</script>
 	</head>
 	<body>
 		<canvas id="canvas">
