@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1795215884|4125991';
+const CACHE_VERSION = '1795218401|3929281';
 /** @type {string} */
 const CACHE_PREFIX = 'PANTHEON - La De-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
